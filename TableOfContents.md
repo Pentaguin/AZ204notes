@@ -1,0 +1,3 @@
+- Implements Azure App Service web apps
+  - [Configure web app settings](Learning path/ImplementsAzureAppServiceWebapps/ConfigureWebAppSettings.md)
+  - [Explore Azure App Service](Learning path/ImplementsAzureAppServiceWebapps/ExploreAzureAppService.md)
