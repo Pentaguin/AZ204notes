@@ -4,7 +4,8 @@
 - Built-in auto scale. increase/decrease resources
 - Container support: Azure Container Registry / Docker Hub
 - CI/CD support
-- Deployment slots: For Standard App Service Plan or higher. Basically save slots / profiles (production, staging, development)
+- Deployment slots: For Standard App Service Plan or higher. Basically environments / profiles (production, staging, development)
+  - Swappable deployment slots.
     
 <br>
 

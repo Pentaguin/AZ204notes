@@ -2,3 +2,4 @@
 - Implements Azure App Service web apps
   - [Configure web app settings](LearningPath/ImplementsAzureAppServiceWebapps/ConfigureWebAppSettings.md)
   - [Explore Azure App Service](LearningPath/ImplementsAzureAppServiceWebapps/ExploreAzureAppService.md)
+  - [Scale apps in Azure App Service](LearningPath/ImplementsAzureAppServiceWebapps/ScaleAppsInAzureAppService.md)
