@@ -1,4 +1,4 @@
-`Logging`:
+# Logging:
 https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/5-enable-diagnostic-logging
 ![img.png](../../images/img2.png)
 

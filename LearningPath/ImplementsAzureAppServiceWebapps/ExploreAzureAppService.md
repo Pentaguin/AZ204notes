@@ -1,4 +1,5 @@
-`Azure App Service`: HTTP-based service for hosting web apps, REST API, mobile back ends.
+# Azure App Service: 
+HTTP-based service for hosting web apps, REST API, mobile back ends.
 - Linux/Windows. Linux has some limitations.
 - Multiple programming language options.
 - Built-in auto scale. increase/decrease resources
@@ -6,10 +7,9 @@
 - CI/CD support
 - Deployment slots: For Standard App Service Plan or higher. Basically environments / profiles (production, staging, development)
   - Swappable deployment slots.
-    
-<br>
 
-`Azure App Service plans`:
+
+# Azure App Service plans:
 - A plan defines:
   - OS (Windows, Linux)
   - Region (West US, East US)
@@ -21,9 +21,9 @@
   - Dedicated (Basic, Standard, Premium, PremiumV2, PremiumV3) `Runs apps on dedicated Azure VM`
   - Isolated (Isolated, IsolatedV2) `Runs dedicated Azure VM on dedicated Azure Virtual Networks`
 
-<br>
 
-`Deploy to App Service`
+
+# Deploy to App Service
 - `Automated` deployment sources:
   - GitHub
   - Bitbucket
@@ -34,9 +34,7 @@
   - Zip deploy: curl or other HTTP utility to send ZIP of application files to App Service
   - FTP/S
 
-<br>
-
-`Authentication and Authorization in App Service`
+# Authentication and Authorization in App Service`
 - Provides built-in authentication and authorization support.
 - Logging
 - Token store: Built into App Service.
@@ -51,9 +49,8 @@
 - `Authentication flow`:
 ![img.png](../../images/img.png)
 
-<br> 
 
-`App Service networking features`:
+# App Service networking features:
 - App Service Deployments Types:
   - Multi-tenant:
     - Shared infrastructure with other customers
