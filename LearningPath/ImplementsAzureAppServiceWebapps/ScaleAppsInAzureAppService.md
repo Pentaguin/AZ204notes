@@ -32,3 +32,27 @@ Scale out options:
   - Less than
   - Equal to
 - Cooldown period
+
+# Autoscale conditions:
+- Can contain multiple rules for scaling in/out
+- `scaling out (add)`: If any rule is true -> perform action.
+  - If HTTP queue length > 10, add 1 instance. `Or` if CPU > 70%, add 1 instance.
+  - To make scale-in work with any single rule, define separate conditions for each rule.
+- `scaling in (remove)`: All rules must be true -> perform action
+  - If HTTP queue length = 0 `and` CPU < 50%, remove 1 instance.
+
+![img.png](../../images/img6.png)
+
+# Best practice
+- `diagnostics metric types`: 
+  - Average
+  - Minimum
+  - Maximum
+  - Total
+- Different max and min values with adequate margin between them. `not this`:
+  - minimum=two, maximum=two
+- Scale out/in must have difference values. `not this`:
+  - Increase instances by one count when Thread Count >= 600
+  - Decrease instances by one count when Thread Count <= 600
+- Always select a default instance count
+- Configure autoscale notifications
