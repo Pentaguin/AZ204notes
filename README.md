@@ -10,4 +10,4 @@
 - Develop Solutions that Use Blob storage
   - [Explore Blob Storage](LearningPath/DevelopSolutionsThatUseBlobStorage/ExploreBlobStorage.md)
   - [Manage The Azure Blob storage lifecycle](LearningPath/DevelopSolutionsThatUseBlobStorage/ManageTheAzureBlobStorageLifeCycle.md)
-  - [Work with Azure Blob Storage](LearningPath/DevelopSolutionsThatUseBlobStorage/WorkWIthAzureBlobStorage.md)
+  - [Work with Azure Blob Storage](LearningPath/DevelopSolutionsThatUseBlobStorage/WorkWithAzureBlobStorage.md)
