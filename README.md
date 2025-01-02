@@ -13,9 +13,10 @@
   - [Work with Azure Blob Storage](LearningPath/DevelopSolutionsThatUseBlobStorage/WorkWithAzureBlobStorage.md)
 - Develop Solutions that use Azure CosmosDB
   - [Explore Cosmos DB](LearningPath/DevelopSolutionsThatUseAzureCosmosDB/ExploreCosmosDB.md)
+  - [Work with Azure Cosmos DB](LearningPath/DevelopSolutionsThatUseAzureCosmosDB/WorkWithAzureCosmosDB.md)
 
 > Practical exercises:
 > - Create App service
-> - Create Azure functions
-> - Create BlobClient
-> - Create CosmosDB resource
+> - Create Azure functions using .NET
+> - Create BlobClient using .NET
+> - Create CosmosDB resource using Azure Portal
