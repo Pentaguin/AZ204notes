@@ -52,6 +52,7 @@
 
 # Consistency levels
 ![img.png](../../images/img29.png)
+Eventual: highest availability, lowest latency, highest throughput, but lowest consistency
 
 # Choose the right consistency level
 1. Strong Consistency
