@@ -7,7 +7,15 @@
 - Implements Azure Functions
   - [Explore Azure Functions](LearningPath/ImplementsAzureFunctions/ExploreAzureFunctions.md)
   - [Develop Azure Functions](LearningPath/ImplementsAzureFunctions/DevelopAzureFunctions.md)
-- Develop Solutions that Use Blob storage
+- Develop Solutions that use Blob storage
   - [Explore Blob Storage](LearningPath/DevelopSolutionsThatUseBlobStorage/ExploreBlobStorage.md)
   - [Manage The Azure Blob storage lifecycle](LearningPath/DevelopSolutionsThatUseBlobStorage/ManageTheAzureBlobStorageLifeCycle.md)
   - [Work with Azure Blob Storage](LearningPath/DevelopSolutionsThatUseBlobStorage/WorkWithAzureBlobStorage.md)
+- Develop Solutions that use Azure CosmosDB
+  - [Explore Cosmos DB](LearningPath/DevelopSolutionsThatUseAzureCosmosDB/ExploreCosmosDB.md)
+
+> Practical exercises:
+> - Create App service
+> - Create Azure functions
+> - Create BlobClient
+> - Create CosmosDB resource
