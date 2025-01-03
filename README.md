@@ -20,3 +20,4 @@
 > - Create Azure functions using .NET
 > - Create BlobClient using .NET
 > - Create CosmosDB resource using Azure Portal
+> - Create CosmosDB resource using .NET
