@@ -1,3 +1,15 @@
+# Configure App Settings
+- In App Service, app settings are passed as environment variables to the app code.
+- For Linux and custom containers, App Services passes app settings to container user `--env` flag to set environment variables in container.
+
+# Configure path mappings
+- Linux and containerized apps
+  - Add custom storage for your app
+  - Containerized apps include all Linux apps and Windows and Linux custom containers running on App Service
+- Windows apps (uncontainerized)
+  - Customize IIS handler mappings and virtual apps and directories
+  - Handler mappings enable adding custom script processors to handle requests for specific file extensions.
+
 # Logging:
 https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/5-enable-diagnostic-logging
 ![img.png](../../images/img2.png)

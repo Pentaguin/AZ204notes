@@ -21,6 +21,9 @@ HTTP-based service for hosting web apps, REST API, mobile back ends.
   - Dedicated (Basic, Standard, Premium, PremiumV2, PremiumV3) `Runs apps on dedicated Azure VM`
   - Isolated (Isolated, IsolatedV2) `Runs dedicated Azure VM on dedicated Azure Virtual Networks`
 
+### How does my app run and scale
+- `Shared`: Apps receive CPU minutes on a shared VM and cant scale out
+- `Other tiers`: apps run on all the VM instances configured in the App Service Plan
 
 
 # Deploy to App Service
