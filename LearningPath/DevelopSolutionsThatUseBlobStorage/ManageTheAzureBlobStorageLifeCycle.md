@@ -39,9 +39,9 @@ You can add, editor or remove a policy using:
 
 # Rehydrate blob data from archive tier
 - Blob in archive tier cannot be read/modified
-- Rehydrate it first to online tier (hot/cold). Can take hours. Recommend to rehydrate in bulk.
+- Rehydrate it first to online tier (hot/cool). Can take hours. Recommend to rehydrate in bulk.
 - 2 options to rehydrate:
-  - Copy the blob to online tier (hot/cold)
+  - Copy the blob to online tier (hot/cool)
   - Change offline to online tier
     - Use `Set Blob Tier`
 - The rehydration process cannot be canceled.

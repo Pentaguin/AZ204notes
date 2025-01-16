@@ -1,5 +1,4 @@
-> Exercise using the client library
-> 
+
 ### Basic classes from client library
 ![img.png](../../images/img24.png)
 

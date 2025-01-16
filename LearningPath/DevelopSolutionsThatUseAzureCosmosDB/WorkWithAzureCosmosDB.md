@@ -41,7 +41,7 @@
     - Error object: handles error
     - Return value: contains created item
   - The procedure accepts a parameter (documentToCreate) that specifies the content of the document to be created.
-
+- `Bounded execution`: all operations must complete within a time. Can return true(complete) / false(roll back)
 # Create triggers and user-defined functions(UDF)
 - `pretriggers`: executed before modifying a database item
 - `posttriggers`: executed after modifying a database item.
@@ -49,19 +49,21 @@
 - pretriggers cannot have any input parameters.
 
 # Change feed
-- The Change Feed in Azure Cosmos DB records container changes in order and outputs them for parallel, asynchronous processing.(basically: exposes events to outside world. you can use these)
+- Azure Cosmos DB service that `monitors changes` in all containers and `distributed events` triggered by those changes to multiple consumers.
 
 - The Azure Cosmos DB change feed supports two models:
   - `Push Model`: The change feed processor handles state tracking and pushes changes to the client for processing.
     - 2 ways to read from a change feed:
       - Azure Functions Azure Cosmos DB triggers 
       - Change feed processor library
-  - `Pull Model`: The client pulls changes, manages state, load balancing, and error handling.
+    - example: Someone delivers new messages to your mailbox without you needing to check
+  - `Pull Model`(polling): The client pulls changes, manages state, load balancing, and error handling.
+    - example: manually checking your mailbox every few hours for new messages
 
 - `Change feed processor`: simplifies the process of read change feed and distributing process
 - 4 change feed processor components:
   - `Monitored Container`: Source of data; inserts and updates appear in the change feed.
-  - `Lease Container`: Stores state and coordinates processing across workers.
+  - `Lease Container`: Stores state and coordinates processing the change feed across multiple workers.
   - `Compute Instance`: Hosts the processor, e.g., a VM, Kubernetes pod, or App Service.
   - `Delegate`: Defines the logic for handling each batch of changes.
 

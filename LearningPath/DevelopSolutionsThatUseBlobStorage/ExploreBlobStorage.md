@@ -79,8 +79,8 @@
 - Azure Storage encryption is enabled by default on all storage accounts and cannot be disabled.
 - Data in storage account is encrypted with `Microsoft-managed` keys by default.
   - You can also manage encryption with your own keys. You have 2 choices:
-    - `customer-managed`
-    - `customer-provided`
+    - `customer-managed`: used for encrypting all data in storage account
+    - `customer-provided`: used during read/write and allows granular control over how blob data is encrypted/decrypted
   ![img.png](../../images/img18.png)
     
 ### Client-side encryption
