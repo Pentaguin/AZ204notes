@@ -47,3 +47,17 @@
    - Deleted resources cannot be recovered.
 
 # ACR Tasks
+- Cloud-based container image building for Linux, Windows and ARM
+- On-demand container image builds let you build your app in the cloud instead of doing it on your local machine. Speeds up dev process and make it more efficient
+- Automatically build images when source code updates, container base image update or timers.
+
+### Task scenarios
+Each task uses a source code context (like a Git repository or local files) to build the container image or artifact.
+- `Quick task`:
+  - Build and push a single container image to a registry in the cloud without needing a local Docker setup.
+- `Automatically triggered tasks`: Set triggers to update image when:
+  - Source code updates
+  - Base image update
+  - Schedule
+- `Multi-step task`
+  -  Perform more complex workflows with multiple image builds and containers.
