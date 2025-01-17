@@ -3,7 +3,7 @@
 No need to worry about deploying and maintaining servers.
 - Good as event triggers
 - `triggers`: ways to start execution of code
-- `bindings` ways to simplify coding for input/output data
+- `bindings` input/output
 
 Both Azure Functions and Azure Logic apps are services that enable serverless workloads.
 - Function: serverless compute service
