@@ -51,6 +51,11 @@
 - On-demand container image builds let you build your app in the cloud instead of doing it on your local machine. Speeds up dev process and make it more efficient
 - Automatically build images when source code updates, container base image update or timers.
 
+| OS      | Architecture                     |
+|---------|----------------------------------|
+| Linux   | AMID64<br/>Arm<br/>Arm64<br/>386 |
+| Windows | AMD64                            |
+
 ### Task scenarios
 Each task uses a source code context (like a Git repository or local files) to build the container image or artifact.
 - `Quick task`:
@@ -60,4 +65,30 @@ Each task uses a source code context (like a Git repository or local files) to b
   - Base image update
   - Schedule
 - `Multi-step task`
-  -  Perform more complex workflows with multiple image builds and containers.
+  - Perform more complex workflows with multiple image builds and containers.
+  - YAML
+
+# Explore elements of a Dockerfile
+- Instruction script to build Docker image. It typically includes the information:
+  - Base/parent image we use to create the new image
+  - Commands to update the base OS and install other software
+  - Build artifacts
+  - Services to expose, such as storage and network configs
+  - Command to run when the container is launched
+
+```
+# Use the .NET 6 runtime as a base image
+FROM mcr.microsoft.com/dotnet/runtime:6.0
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the contents of the published app to the container's /app directory
+COPY bin/Release/net6.0/publish/ .
+
+# Expose port 80 to the outside world
+EXPOSE 80
+
+# Set the command to run when the container starts
+CMD ["dotnet", "MyApp.dll"]
+```
