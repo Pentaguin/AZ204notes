@@ -16,9 +16,5 @@
   - [Work with Azure Cosmos DB](LearningPath/DevelopSolutionsThatUseAzureCosmosDB/WorkWithAzureCosmosDB.md)
 - Implement Containerized Solutions
   - [Manage Container Images In Azure Container Registry](LearningPath/ImplementContainerizedSolutions/ManageContainerImagesInAzureContainerRegistry.md)
-
-> Practical exercises:
-> - Create App service
-> - Create Azure functions using .NET
-> - Create CosmosDB resource using Azure Portal
-> - Create CosmosDB resource using .NET
+  - [Run Container Images in Azure Container Instances](LearningPath/ImplementContainerizedSolutions/RunContainerImagesInAzureContainerInstances.md)
+  - [Implement Azure Container Apps](LearningPath/ImplementContainerizedSolutions/ImplementAzureContainerApps.md)
